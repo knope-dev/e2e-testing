@@ -16,6 +16,10 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
+      - name: Configure Git
+        run: |
+          git config --global user.name GitHub Actions
+          git config user.email github-actions@github.com
       - uses: Swatinem/rust-cache@v2
       - name: Install the latest Knope
         run: cargo install --git https://github.com/knope-dev/knope --branch ${{ github.event.inputs.knope-branch }}
