@@ -26,7 +26,7 @@ jobs:
       - run: knope prepare-release
       - name: Store commit
         id: commit
-        run: echo "::set-output name=sha::$(git rev-parse HEAD)"
+        run: echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
   build-artifacts:
     needs: prepare-release
@@ -101,7 +101,7 @@ jobs:
           name: ${{ env.archive_name }}
       - uses: Swatinem/rust-cache@v2
       - name: Install the latest Knope
-        run: cargo install --git https://github.com/knope-dev/knope 
+        run: cargo install --git https://github.com/knope-dev/knope --branch ${{ github.event.inputs.knope-branch }}
       - run: knope release
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
