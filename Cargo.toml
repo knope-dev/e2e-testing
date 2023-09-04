@@ -4,6 +4,7 @@ description = "This exists purely to test complicated workflows with Knope"
 publish = false
 version = "0.0.3"
 edition = "2021"
+repository = "https://github.com/knope-dev/e2e-testing"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
