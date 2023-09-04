@@ -4,19 +4,19 @@ changelog = "CHANGELOG.md"
 
 [[package.assets]]
 path = "artifact/test-x86_64-unknown-linux-musl.tgz"
-name = "test-x86_64-unknown-linux-musl"
+name = "test-x86_64-unknown-linux-musl.tgz"
 
 [[package.assets]]
 path = "artifact/test-x86_64-pc-windows-msvc.tgz"
-name = "test-x86_64-pc-windows-msvc"
+name = "test-x86_64-pc-windows-msvc.tgz"
 
 [[package.assets]]
 path = "artifact/test-x86_64-apple-darwin.tgz"
-name = "test-x86_64-apple-darwin"
+name = "test-x86_64-apple-darwin.tgz"
 
 [[package.assets]]
 path = "artifact/test-aarch64-apple-darwin.tgz"
-name = "test-aarch64-apple-darwin"
+name = "test-aarch64-apple-darwin.tgz"
 
 
 [[workflows]]
