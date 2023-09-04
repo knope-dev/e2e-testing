@@ -1,4 +1,10 @@
 
+## 0.0.4 (2023-09-04)
+
+### Features
+
+#### Upgrade to nameless artifacts
+
 ## 0.0.3 (2023-09-04)
 
 ### Features

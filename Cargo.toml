@@ -2,7 +2,7 @@
 name = "test"
 description = "This exists purely to test complicated workflows with Knope"
 publish = false
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 repository = "https://github.com/knope-dev/e2e-testing"
 
