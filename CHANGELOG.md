@@ -1,4 +1,10 @@
 
+## 0.1.0 (2023-09-17)
+
+### Breaking Changes
+
+#### Switch to PR-based release workflow
+
 ## 0.0.4 (2023-09-04)
 
 ### Features
