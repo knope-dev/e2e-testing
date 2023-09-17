@@ -8,10 +8,11 @@ on:
         default: 'main'
   pull_request:
     types: [closed]
-    branches: [release]
+    branches: [main]
 
 jobs:
   build-artifacts:
+    if:  github.head_ref == 'release' && github.event.pull_request.merged == true
     strategy:
       fail-fast: false
       matrix:
