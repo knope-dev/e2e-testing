@@ -25,3 +25,5 @@ jobs:
       - name: Install the latest Knope
         run: cargo install --git https://github.com/knope-dev/knope --branch ${{ github.event.inputs.knope-branch || 'main' }}
       - run: knope prepare-release --verbose
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
