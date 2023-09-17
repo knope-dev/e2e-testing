@@ -1,4 +1,14 @@
 
+## 0.2.0 (2023-09-17)
+
+### Breaking Changes
+
+#### Switch to PR-based release workflow
+
+### Fixes
+
+#### Run the release workflow jobs when the release branch merges
+
 ## 0.1.0 (2023-09-17)
 
 ### Breaking Changes
