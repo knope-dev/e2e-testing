@@ -82,7 +82,7 @@ jobs:
           name: ${{ env.archive_name }}
       - uses: Swatinem/rust-cache@v2
         with:
-          shared-key: "shared"
+          shared-key: ${{ github.event.inputs.knope-branch || 'main' }}
       - name: Install the latest Knope
         run: cargo install --git https://github.com/knope-dev/knope --branch ${{ github.event.inputs.knope-branch || 'main' }}
       - run: knope release --verbose
