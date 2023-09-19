@@ -1,4 +1,16 @@
 
+## 0.4.0 (2023-09-19)
+
+### Breaking Changes
+
+#### Switch to PR-based release workflow
+
+### Fixes
+
+#### Run the release workflow jobs when the release branch merges
+
+#### Remove old reference to required branch
+
 ## 0.3.0 (2023-09-17)
 
 ### Breaking Changes
