@@ -1,4 +1,10 @@
 
+## 0.4.1 (2023-09-19)
+
+### Fixes
+
+#### Don't recreate PRs when merging the previous one
+
 ## 0.4.0 (2023-09-19)
 
 ### Breaking Changes
